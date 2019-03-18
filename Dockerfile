@@ -2,7 +2,7 @@ FROM ayyazzafar/docker-android
 
 LABEL MAINTAINER="Ayyaz Zafar <contact@ayyaz.io>"
 
-ENV NODEJS_VERSION=8.15.0 \
+ENV NODEJS_VERSION=8.15.1 \
     PATH=$PATH:/opt/node/bin
     
 WORKDIR "/opt/node/"
